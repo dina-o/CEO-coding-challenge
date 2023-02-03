@@ -68,6 +68,7 @@ function App() {
             <p>The U.S. Treasury classified bitcoin as a convertible decentralized virtual currency in 2013. Bitcoin jumped over $18,000 to the highest level in a month during U.S.A's cooling inflation.</p>
             <li>⁍ &nbsp; Rate: {currencyUSD?.rate}</li>
             <li>⁍ &nbsp; Name: {currencyUSD?.description}</li>
+            <li>⁍ &nbsp; Symbol: {currencyUSD?.symbol}</li>
             <li>⁍ &nbsp; Float rate: {currencyUSD?.rate_float}</li>
           </div>
           
@@ -78,6 +79,7 @@ function App() {
           <p>In July 2021, The European Central Bank launched a pilot project for the "digital euro". A EU credit card company, Huobi allows users to pay from their crypto accounts at point-of-sale stations globally.</p>
             <li>⁍ &nbsp; Rate: {currencyEUR?.rate}</li>
             <li>⁍ &nbsp; Name: {currencyEUR?.description}</li>
+            <li>⁍ &nbsp; Symbol: {currencyEUR?.symbol}</li>
             <li>⁍ &nbsp; Float rate: {currencyEUR?.rate_float}</li>
         </div>
 
@@ -87,6 +89,7 @@ function App() {
           <p>This past month, His Majesty’s Treasury published a long-anticipated consultation paper for the UK's upcoming crypto regulation. Apart from traditional finance, crypto companies won’t have to report their market data regularly. </p>
             <li>⁍ &nbsp; Rate: {currencyGBP?.rate}</li>
             <li>⁍ &nbsp; Name: {currencyGBP?.description}</li>
+            <li>⁍ &nbsp; Symbol: {currencyGBP?.symbol}</li>
             <li>⁍ &nbsp; Float rate: {currencyGBP?.rate_float}</li>
         
         </div>
